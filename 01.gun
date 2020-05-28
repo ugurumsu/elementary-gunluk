@@ -3,12 +3,35 @@
 2. Windows 10 64Bit'te Rufus aracılığı ile USB Disk'e yazıldı.
 3. Ubuntu 18.04.4 LTS (Bionic Beaver) işletim sistemi WD Green SSD'ye yüklendi.
 4. Güncelleştirmeler yapıldı.
+5. Ubuntu Yazılımlar'dan gerekli programlar kuruldu.
+  - Opera
+  - 
+6. E-imza gereklilikleri kuruldu.
+  - Akis kuruldu: http://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/
+    İndirilen dosya: akis_2.0_amd64.tar 
+      Sağ tık -> Buraya çıkart -> Sağ tık -> Yazılım kur ile aç -> Kur
+  - OpenJDK kuruldu.
+        sudo apt-get update
+        sudo apt-get install openjdk-11-jdk openjdk-11-jre
+        java -version
+   - Oracle JDK kuruldu.
+        sudo add-apt-repository ppa:webupd8team/java 
+        sudo apt-get update
+        sudo apt-get install oracle-java11-set-default oracle-java11-installer oracle-jdk11-installer
+        java -version
+   - Belgenet İmza Servisi kuruldu: http://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Linux/
+     İndirilen dosya: signNativeOsService_Linux_1.0.36.zip
+        Sağ tık -> Buraya çıkart -> signNativeOsService/bin/systemctl dizinine git.
+          sudo bash install.sh
+          sudo systemctl status turksat-imza.service
+          Tarayıcıda "https://localhost:9001" adresine gidilir.
+   
 5. Vivaldi Browser kuruldu.
   - https://vivaldi.com/tr/download/
 --------- Yapamadım.
  6. Pantheon kuruldu.
   - https://itsubuntu.com/install-pantheon-ubuntu-18-04-lts
-    sudo add-apt-repository ppa:elementary-os/daily
+    sudo add-apt-repository ppa:elementary- -sadsados/daily
     sudo add-apt-repository ppa:elementary-os/os-patches
     sudo add-apt-repository ppa:elementary-os/testing
     sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
