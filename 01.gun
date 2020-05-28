@@ -5,4 +5,15 @@
 4. Güncelleştirmeler yapıldı.
 5. Vivaldi Browser kuruldu.
   - https://vivaldi.com/tr/download/
- 
+--------- Yapamadım.
+ 6. Pantheon kuruldu.
+  - https://itsubuntu.com/install-pantheon-ubuntu-18-04-lts
+    sudo add-apt-repository ppa:elementary-os/daily
+    sudo add-apt-repository ppa:elementary-os/os-patches
+    sudo add-apt-repository ppa:elementary-os/testing
+    sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+    sudo apt update
+    sudo apt dist-upgrade
+    sudo apt-get install elementary-theme elementary-icon-theme elementary-default-settings elementary-desktop elementary-tweaks
+
+    sudo add-apt-repository ppa:elementary-os/stable
