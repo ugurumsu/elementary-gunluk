@@ -14,19 +14,17 @@
         sudo apt-get update
         sudo apt-get install openjdk-11-jdk openjdk-11-jre
         java -version
-   - Oracle JDK kuruldu.
-        sudo add-apt-repository ppa:webupd8team/java 
-        sudo apt-get update
-        sudo apt-get install oracle-java11-set-default oracle-java11-installer oracle-jdk11-installer
-        java -version
+   - Oracle JDK kuruldu: https://www.oracle.com/java/technologies/javase-downloads.html
+     İndirilen dosya: jdk-14.0.1_linux-x64_bin.deb
+          * Sanki kurulmadı.
    - Belgenet İmza Servisi kuruldu: http://www.belgenet.com.tr/statics/BelgenetImzaServisiKurulumDosyalari/Linux/
      İndirilen dosya: signNativeOsService_Linux_1.0.36.zip
         Sağ tık -> Buraya çıkart -> signNativeOsService/bin/systemctl dizinine git.
           sudo bash install.sh
           sudo systemctl status turksat-imza.service
           Tarayıcıda "https://localhost:9001" adresine gidilir.
-   
-5. Vivaldi Browser kuruldu.
+   - Tarayıcılarda https://localhost:9001 adresine girildi. 
+   7. Vivaldi Browser kuruldu.
   - https://vivaldi.com/tr/download/
 --------- Yapamadım.
  6. Pantheon kuruldu.
