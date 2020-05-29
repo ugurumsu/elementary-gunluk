@@ -36,6 +36,9 @@
               deb http://ppa.launchpad.net/elementary-os/staging/ubuntu bionic main
               deb http://ppa.launchpad.net/elementary-os/os-patches/ubuntu bionic main
                 ("https://launchpad.net/~elementary-os" adresinde sürüme uygun depo adresleri kontrol edildi.)
+      - sudo apt update
+      - sudo apt dist-upgrade
+      - sudo update-manager -d
       - sudo apt install elementary-desktop
  
  ______________________________________
