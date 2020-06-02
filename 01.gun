@@ -1,11 +1,8 @@
-1. Ubuntu 18.04.4 LTS (Bionic Beaver) indirildi.
-  - http://releases.ubuntu.com/18.04.4/?_ga=2.11287860.1059171891.1590646059-1308220294.1590646059
-2. Windows 10 64Bit'te Rufus aracılığı ile USB Disk'e yazıldı.
-3. Ubuntu 18.04.4 LTS (Bionic Beaver) işletim sistemi WD Green SSD'ye yüklendi.
-4. Güncelleştirmeler yapıldı.
-5. Ubuntu Yazılımlar'dan gerekli programlar kuruldu.
-  - Opera
+1. elemetary OS 5.1.4 Hera indirildi ve yüklendi.
+2. Uygulama Merkezi'nden gerekli programlar kuruldu.
+  - Deepin Package Manager
   - 
+3. Vivaldi'nin ve Opera'nın .deb paketleri indirilerek yüklendi.
 6. E-imza gereklilikleri kuruldu.
   - Akis kuruldu: http://kamusm.bilgem.tubitak.gov.tr/islemler/surucu_yukleme_servisi/
     İndirilen dosya: akis_2.0_amd64.tar 
