@@ -20,32 +20,4 @@
           sudo bash install.sh
           sudo systemctl status turksat-imza.service
           Tarayıcıda "https://localhost:9001" adresine gidilir.
-   - Tarayıcılarda https://localhost:9001 adresine girildi. 
-   7. Vivaldi Browser kuruldu.
-  - https://vivaldi.com/tr/download/
---------- Yapamadım.
- 6. Pantheon kuruldu.
-      - Depolar eklendi.
-          Ubuntu Yazılımlar -> Yazılım ¾ Güncellemeler -> Diğer Yazılımlar sekmesi
-            Sırasıyla aşağıdaki depolar eklendi ve her depodan sonra "Kapat"a tıklanıp güncelleme yapıldı.
-              deb http://ppa.launchpad.net/elementary-os/daily/ubuntu bionic main
-              deb http://ppa.launchpad.net/elementary-os/stable/ubuntu bionic main
-              deb http://ppa.launchpad.net/elementary-os/staging/ubuntu bionic main
-              deb http://ppa.launchpad.net/elementary-os/os-patches/ubuntu bionic main
-                ("https://launchpad.net/~elementary-os" adresinde sürüme uygun depo adresleri kontrol edildi.)
-      - sudo apt update
-      - sudo apt dist-upgrade
-      - sudo update-manager -d
-      - sudo apt install elementary-desktop
- 
- ______________________________________
-  - https://itsubuntu.com/install-pantheon-ubuntu-18-04-lts
-    sudo add-apt-repository ppa:elementary- -sadsados/daily
-    sudo add-apt-repository ppa:elementary-os/os-patches
-    sudo add-apt-repository ppa:elementary-os/testing
-    sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
-    sudo apt update
-    sudo apt dist-upgrade
-    sudo apt-get install elementary-theme elementary-icon-theme elementary-default-settings elementary-desktop elementary-tweaks
-
-    sudo add-apt-repository ppa:elementary-os/stable
+   - Tarayıcılarda https://localhost:9001 adresine girildi.
