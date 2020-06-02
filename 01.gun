@@ -22,3 +22,6 @@
           sudo systemctl status turksat-imza.service
           Tarayıcıda "https://localhost:9001" adresine gidilir.
  7. Basit Tarayıcı kuruldu: sudo apt install simple-scan
+ 8. HP M227 yazıcı kurulumu yapıldı.
+  - http://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/ --> 3.18.12 sürüm dosyalar indirildi.
+  - sudo hp-setup-i --> İndirilen pluginler seçilmeli.
