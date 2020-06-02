@@ -21,3 +21,4 @@
           sudo bash install.sh
           sudo systemctl status turksat-imza.service
           Tarayıcıda "https://localhost:9001" adresine gidilir.
+ 7. Basit Tarayıcı kuruldu: sudo apt install simple-scan
